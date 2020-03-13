@@ -8,7 +8,7 @@ def summon_captain_planet(bowl)  # code an argument here
 end
 
 def long_planeteer_calls(hamper)   # code an argument here
-  
+  hamper.any? {|wrd| wrd.length > 4}
 end
 
 def find_the_cheese# code an argument here
