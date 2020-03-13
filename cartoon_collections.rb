@@ -3,7 +3,7 @@ def roll_call_dwarves(box)        # code an argument here
 end
 
 def summon_captain_planet(bowl)  # code an argument here
-  new_bowl = bowl.collect {|el| el.capitolize + "!"}
+  new_bowl = bowl.collect {|el| el.capitalize + "!"}
   return new_bowl
 end
 
