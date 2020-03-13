@@ -14,7 +14,9 @@ end
 def find_the_cheese(cup)        # code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  cup.detect {|wtr| wtr.is_a?(cheese_types(type))}
+  cup.detect do |wtr| 
+    (cheese_types(type) == (wtr)
+  end
 end
 
 
